@@ -1,0 +1,8 @@
+
+public class BackTracking {
+
+	private int NR_OF_QUEENS=4;
+	private Point[] queens = new Point[NR_OF_QUEENS];
+	
+	
+}

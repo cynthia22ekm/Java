@@ -1,0 +1,13 @@
+
+public class Test1 {
+	
+	public void run()
+	{
+		int a = 8;
+		int x = --a;
+		int y = x++;
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}

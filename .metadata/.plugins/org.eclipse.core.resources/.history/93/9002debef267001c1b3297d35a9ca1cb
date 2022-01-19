@@ -1,0 +1,25 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test extends GraphicsProgram{
+
+	int array[] = { 2, 1, 3, 5, 4 };
+	int j;
+	public void run()
+	{
+		
+		
+		for (int i = 1; i < array.length; i++) 
+		{ 
+			System.out.println("printing i loop");
+		int cur =array[i]; 
+		for (int j=i-1; j >= 0 && array[j] > cur; j--) 
+		{ 
+			array[j+1] = array[j]; 
+			System.out.println("printing j loop");
+		} 
+		array[j+1] = cur; 
+		}
+System.out.println(array);
+	}
+}

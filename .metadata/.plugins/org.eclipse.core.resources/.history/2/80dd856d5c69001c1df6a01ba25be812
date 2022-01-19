@@ -1,0 +1,19 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test1 extends ConsoleProgram {
+	
+	public void run()
+	{
+		int cent=readInt("Enter a number:");
+		formatNumericString(cent) ;
+		
+	}
+
+	private void formatNumericString(int money) {
+		int euros = money / 10000;
+		int cents = money % 10000;
+		println("The amount is " + euros + "," + cents + " Euro.");
+	}
+
+}

@@ -1,0 +1,11 @@
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
+
+
+public class GraphicsTest extends GraphicsProgram{
+	GOval ring =new GOval(20, 20);
+	ring.setColor(color);
+	ring.setFilled(true);
+	int x = 75 + 72 - radius;
+	add(ring, x, x);
+}

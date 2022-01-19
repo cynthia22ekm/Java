@@ -1,0 +1,15 @@
+
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
+
+
+public class Test extends GraphicsProgram{
+
+	
+	public void run()
+	{
+		
+		
+		GOval ball = new GOval(40, 40);
+	}
+}

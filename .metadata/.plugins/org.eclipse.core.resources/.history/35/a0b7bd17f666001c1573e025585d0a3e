@@ -1,0 +1,15 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test1 extends ConsoleProgram {
+	
+	public void run()
+	{
+		int a = 8;
+		int x = --a;
+		int y = x++;
+		System.out.println(a);
+		System.out.println(y);
+	}
+
+}

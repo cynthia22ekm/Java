@@ -1,0 +1,20 @@
+import stanford.karel.SuperKarel;
+
+
+public class AdventureKarel extends SuperKarel {
+
+	public void run() {
+		
+		while(rightIsBlocked())
+		{
+			move();
+		}
+		turnLeft();
+		turnLeft();
+		move();
+		turnAround();
+		
+		
+			
+	}
+}

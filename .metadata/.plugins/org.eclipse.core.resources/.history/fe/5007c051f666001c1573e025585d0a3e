@@ -1,0 +1,21 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test1 extends ConsoleProgram {
+	
+		int j = 3;
+		private static final int maxnum = 10;
+		public void run() {
+		for (int i = 0; i < maxnum; i++) {
+		println(i + "! = " + factorial(i));
+		}
+		}
+		private int Factorial(int n) {
+		int RESULT = 1;
+		for (int i = 1; i <= n; i++)
+		result *= i;
+		return result;
+		}
+		}
+
+}

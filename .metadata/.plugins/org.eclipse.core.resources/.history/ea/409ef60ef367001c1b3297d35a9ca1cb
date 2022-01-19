@@ -1,0 +1,21 @@
+
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
+
+
+public class Test extends GraphicsProgram{
+private int x=40;
+private int y=40;
+	
+	public void run()
+	{
+		
+		drawCircle(x,y);
+		
+	}
+
+	private void drawCircle(int x2,int y2) {
+		GOval ball = new GOval(40, 40);
+		
+	}
+}

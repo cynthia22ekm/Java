@@ -1,0 +1,24 @@
+import acm.graphics.GRect;
+import acm.program.GraphicsProgram;
+
+public class Wall extends GraphicsProgram {
+	int x = 70; // beginning x position of wall
+	int y = 108;
+	public void run() {
+		setSize(300, 200);
+		for (int j = 108; j < 325; j=j+15) {
+			drawRowOfNBricks(j);
+		}
+	}
+
+	private void drawRowOfNBricks(int j) {
+		 // beginning y position of wall
+		for (int i = 0; i < 5; i++) {
+			GRect brick = new GRect(30, 15);
+			add(brick, x, y);
+			x = x + 30;
+			
+		}
+		y=y+15;
+	}
+}

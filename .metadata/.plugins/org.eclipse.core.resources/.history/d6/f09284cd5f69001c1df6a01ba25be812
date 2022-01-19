@@ -1,0 +1,22 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test2 extends ConsoleProgram {
+	
+	public void run()
+	{
+		int seconds=readInt("Enter a number:");
+		String word =formatNumericString(cent) ;
+		println(word);
+		
+	}
+
+	private String formatNumericString(int seconds) {
+		int minutes = seconds / 60;
+		int hours = minutes % 60;
+		int secondss=seconds%60;
+		
+		return (String)(hours+":"+minutes+":"+secondss);
+	}
+
+}

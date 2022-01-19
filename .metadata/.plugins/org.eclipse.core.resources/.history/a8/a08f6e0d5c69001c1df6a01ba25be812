@@ -1,0 +1,11 @@
+import acm.program.ConsoleProgram;
+
+
+public class Test1 extends ConsoleProgram {
+	
+		int cent=readInt("Enter a number:");
+		formatNumericString(int cent) ;
+		
+		
+
+}

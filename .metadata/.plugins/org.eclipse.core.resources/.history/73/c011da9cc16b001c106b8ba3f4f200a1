@@ -1,0 +1,15 @@
+import java.awt.Color;
+
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
+
+
+public class GraphicsTest extends GraphicsProgram{
+	public void run()
+	{
+	GOval ring =new GOval(20, 20);
+	ring.setColor(Color.RED);
+	//ring.setFilled(true);
+	add(ring, 0, 0);
+}
+}
